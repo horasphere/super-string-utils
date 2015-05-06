@@ -21,13 +21,13 @@
         <repository>
             <id>horasphere-artifactory</id>
             <name>Maven2 Release Repository</name>
-            <url>http://dev.horasphere.com/artifactory/libs-release-local</url>
+            <url>http://dev.horasphere.com:8080/artifactory/libs-release-local</url>
             <uniqueVersion>true</uniqueVersion>
         </repository>
         <snapshotRepository>
             <id>horasphere-artifactory</id>
             <name>Maven2 Snapshot Repository</name>
-            <url>http://dev.horasphere.com/artifactory/libs-snapshot-local</url>
+            <url>http://dev.horasphere.com:8080/artifactory/libs-snapshot-local</url>
             <uniqueVersion>true</uniqueVersion>
         </snapshotRepository>
     </distributionManagement>
